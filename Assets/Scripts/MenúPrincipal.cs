@@ -30,7 +30,9 @@ public class MenúPrincipal : MonoBehaviour {
     
     public void Load1() { 
         FoleyPlayer.Play();
+        Debug.Log("Load1");
         SceneManagerController.Instance.LoadScene("Level1");
+        SceneManager.LoadScene("Level1");
         }
     public void Load2() { 
         FoleyPlayer.Play();
@@ -52,10 +54,11 @@ public class MenúPrincipal : MonoBehaviour {
         SceneManagerController.Instance.LoadScene("Level6");
         }
 
-    public void Jugar()
-    {
-        FoleyPlayer.Play();
-        Niveles.SetActive(true);
+        public void Jugar()
+        {
+            FoleyPlayer.Play();
+            Niveles.SetActive(true);
+            //SceneManagerController.Instance.LoadScene("Level1");
     }
 
     public void Atras()
