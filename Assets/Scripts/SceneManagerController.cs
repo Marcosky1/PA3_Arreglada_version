@@ -32,7 +32,7 @@ public class SceneManagerController : MonoBehaviour
         DontDestroyOnLoad(this.gameObject);
     }
 
-    private void Start() {
+    public void Start() {
         imageColor = foreground.color;
         StartCoroutine(FadeCoroutine(fadeOutTime, fadeOutColor));
     }
@@ -68,6 +68,8 @@ public class SceneManagerController : MonoBehaviour
             yield return new WaitForSeconds(Time.deltaTime);
 
             foreground.color = Color.Lerp(imageColor, targetColor, t);
+
+            Debug.Log("Fade Out Coroutine");
         }
         
         onFade?.Invoke();
