@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 114221263445596102}
   - component: {fileID: 50219158727806660}
   - component: {fileID: 61194770726322090}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: BusEscolar
   m_TagString: Enemy
   m_Icon: {fileID: 0}
