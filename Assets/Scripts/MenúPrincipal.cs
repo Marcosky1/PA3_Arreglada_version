@@ -36,23 +36,28 @@ public class MenúPrincipal : MonoBehaviour {
         }
     public void Load2() { 
         FoleyPlayer.Play();
-        SceneManagerController.Instance.LoadScene("Level2"); 
-        }
+        SceneManagerController.Instance.LoadScene("Level2");
+        SceneManager.LoadScene("Level2");
+    }
     public void Load3() { 
         FoleyPlayer.Play();
         SceneManagerController.Instance.LoadScene("Level3");
-        }
+        SceneManager.LoadScene("Level3");
+    }
     public void Load4() { 
         FoleyPlayer.Play();
-        SceneManagerController.Instance.LoadScene("Level4"); 
-        }
+        SceneManagerController.Instance.LoadScene("Level4");
+        SceneManager.LoadScene("Level4");
+    }
     public void Load5() { FoleyPlayer.Play();
     SceneManagerController.Instance.LoadScene("Level5");
+        SceneManager.LoadScene("Level5");
     }
     public void Load6() { 
         FoleyPlayer.Play();
         SceneManagerController.Instance.LoadScene("Level6");
-        }
+        SceneManager.LoadScene("Levell6");
+    }
 
         public void Jugar()
         {
