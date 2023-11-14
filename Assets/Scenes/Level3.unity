@@ -442,7 +442,7 @@ GameObject:
   - component: {fileID: 47326005}
   - component: {fileID: 47326004}
   - component: {fileID: 47326003}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: "\xC1rbol (3)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -820,7 +820,7 @@ GameObject:
   - component: {fileID: 196453330}
   - component: {fileID: 196453329}
   - component: {fileID: 196453328}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: "\xC1rbol (6)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -948,7 +948,7 @@ GameObject:
   - component: {fileID: 206419210}
   - component: {fileID: 206419209}
   - component: {fileID: 206419208}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: "\xC1rbol (5)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1337,7 +1337,7 @@ GameObject:
   - component: {fileID: 239420813}
   - component: {fileID: 239420812}
   - component: {fileID: 239420811}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: "\xC1rbol (4)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6797,7 +6797,7 @@ GameObject:
   - component: {fileID: 1458597043}
   - component: {fileID: 1458597042}
   - component: {fileID: 1458597041}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: "\xC1rbol (2)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9128,7 +9128,7 @@ GameObject:
   - component: {fileID: 2125885677}
   - component: {fileID: 2125885676}
   - component: {fileID: 2125885675}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: "\xC1rbol (1)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
